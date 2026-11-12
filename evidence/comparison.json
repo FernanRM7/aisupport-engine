@@ -1,0 +1,283 @@
+{
+  "generatedAt": "2026-11-12T23:16:16.756Z",
+  "results": [
+    {
+      "id": "normal-access",
+      "mode": "traditional",
+      "expectedCategory": "ACCESS",
+      "expectedPriority": "MEDIUM",
+      "httpStatus": 200,
+      "category": "ACCESS",
+      "priority": "MEDIUM",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "normal-access",
+      "mode": "generative",
+      "expectedCategory": "ACCESS",
+      "expectedPriority": "MEDIUM",
+      "httpStatus": 200,
+      "category": "ACCESS",
+      "priority": "MEDIUM",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "normal-bug",
+      "mode": "traditional",
+      "expectedCategory": "BUG",
+      "expectedPriority": "MEDIUM",
+      "httpStatus": 200,
+      "category": "BUG",
+      "priority": "MEDIUM",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "normal-bug",
+      "mode": "generative",
+      "expectedCategory": "BUG",
+      "expectedPriority": "MEDIUM",
+      "httpStatus": 200,
+      "category": "BUG",
+      "priority": "MEDIUM",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "normal-feature",
+      "mode": "traditional",
+      "expectedCategory": "FEATURE",
+      "expectedPriority": "LOW",
+      "httpStatus": 200,
+      "category": "FEATURE",
+      "priority": "LOW",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "normal-feature",
+      "mode": "generative",
+      "expectedCategory": "FEATURE",
+      "expectedPriority": "LOW",
+      "httpStatus": 200,
+      "category": "FEATURE",
+      "priority": "LOW",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "normal-security",
+      "mode": "traditional",
+      "expectedCategory": "SECURITY",
+      "expectedPriority": "HIGH",
+      "httpStatus": 200,
+      "category": "SECURITY",
+      "priority": "HIGH",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "normal-security",
+      "mode": "generative",
+      "expectedCategory": "SECURITY",
+      "expectedPriority": "HIGH",
+      "httpStatus": 200,
+      "category": "SECURITY",
+      "priority": "HIGH",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "critical-exposure",
+      "mode": "traditional",
+      "expectedCategory": "SECURITY",
+      "expectedPriority": "CRITICAL",
+      "httpStatus": 200,
+      "category": "SECURITY",
+      "priority": "CRITICAL",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "critical-exposure",
+      "mode": "generative",
+      "expectedCategory": "SECURITY",
+      "expectedPriority": "CRITICAL",
+      "httpStatus": 200,
+      "category": "SECURITY",
+      "priority": "CRITICAL",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "urgent-access",
+      "mode": "traditional",
+      "expectedCategory": "ACCESS",
+      "expectedPriority": "HIGH",
+      "httpStatus": 200,
+      "category": "BUG",
+      "priority": "HIGH",
+      "validFormat": true,
+      "correct": false
+    },
+    {
+      "id": "urgent-access",
+      "mode": "generative",
+      "expectedCategory": "ACCESS",
+      "expectedPriority": "HIGH",
+      "httpStatus": 200,
+      "category": "ACCESS",
+      "priority": "HIGH",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "ambiguous-app",
+      "mode": "traditional",
+      "expectedCategory": "BUG",
+      "expectedPriority": "MEDIUM",
+      "httpStatus": 200,
+      "category": "BUG",
+      "priority": "MEDIUM",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "ambiguous-app",
+      "mode": "generative",
+      "expectedCategory": "BUG",
+      "expectedPriority": "MEDIUM",
+      "httpStatus": 200,
+      "category": "BUG",
+      "priority": "MEDIUM",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "ambiguous-page",
+      "mode": "traditional",
+      "expectedCategory": "BUG",
+      "expectedPriority": "MEDIUM",
+      "httpStatus": 200,
+      "category": "BUG",
+      "priority": "MEDIUM",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "ambiguous-page",
+      "mode": "generative",
+      "expectedCategory": "BUG",
+      "expectedPriority": "MEDIUM",
+      "httpStatus": 200,
+      "category": "BUG",
+      "priority": "MEDIUM",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "ambiguous-login",
+      "mode": "traditional",
+      "expectedCategory": "ACCESS",
+      "expectedPriority": "MEDIUM",
+      "httpStatus": 200,
+      "category": "ACCESS",
+      "priority": "MEDIUM",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "ambiguous-login",
+      "mode": "generative",
+      "expectedCategory": "ACCESS",
+      "expectedPriority": "MEDIUM",
+      "httpStatus": 200,
+      "category": "ACCESS",
+      "priority": "MEDIUM",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "prompt-injection-security",
+      "mode": "traditional",
+      "expectedCategory": "SECURITY",
+      "expectedPriority": "HIGH",
+      "httpStatus": 200,
+      "category": "SECURITY",
+      "priority": "HIGH",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "prompt-injection-security",
+      "mode": "generative",
+      "expectedCategory": "SECURITY",
+      "expectedPriority": "HIGH",
+      "httpStatus": 200,
+      "category": "SECURITY",
+      "priority": "HIGH",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "prompt-injection-feature",
+      "mode": "traditional",
+      "expectedCategory": "SECURITY",
+      "expectedPriority": "HIGH",
+      "httpStatus": 200,
+      "category": "SECURITY",
+      "priority": "HIGH",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "prompt-injection-feature",
+      "mode": "generative",
+      "expectedCategory": "SECURITY",
+      "expectedPriority": "HIGH",
+      "httpStatus": 200,
+      "category": "SECURITY",
+      "priority": "HIGH",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "feature-disguised-security",
+      "mode": "traditional",
+      "expectedCategory": "SECURITY",
+      "expectedPriority": "HIGH",
+      "httpStatus": 200,
+      "category": "SECURITY",
+      "priority": "HIGH",
+      "validFormat": true,
+      "correct": true
+    },
+    {
+      "id": "feature-disguised-security",
+      "mode": "generative",
+      "expectedCategory": "SECURITY",
+      "expectedPriority": "HIGH",
+      "httpStatus": 200,
+      "category": "SECURITY",
+      "priority": "HIGH",
+      "validFormat": true,
+      "correct": true
+    }
+  ],
+  "summary": [
+    {
+      "mode": "traditional",
+      "correct": 11,
+      "total": 12,
+      "accuracyPercent": 91.67
+    },
+    {
+      "mode": "generative",
+      "correct": 12,
+      "total": 12,
+      "accuracyPercent": 100
+    }
+  ]
+}

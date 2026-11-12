@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ai-support-engine",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-12",
+  "observability": { "enabled": true },
+  "ai": { "binding": "AI", "remote": true },
+  "vars": { "AI_GATEWAY_ID": "default", "AI_MODEL": "@cf/openai/gpt-oss-20b" }
+}
